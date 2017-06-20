@@ -1,0 +1,17 @@
+[ErrorException]                                                             
+  include(/var/www/html/laravel-demo/laravelfiles/vendor/composer/../../datab  
+  ase/migrations/2014_10_12_000000_create_users_table.php): failed to open st  
+  ream: No such file or directory 
+
+sol:- composer dump-autoload
+
+----------------------------------------------------------------------------------
+
+The following steps solved blank white screen problem on my Laravel 5.
+
+    Go to your Laravel root folder
+    Give write permission to bootstrap/cache and storage directories
+
+    sudo chmod -R 777 bootstrap/cache storage
+
+----------------------------------------------------------------------------------
